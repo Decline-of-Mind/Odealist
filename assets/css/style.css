@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Modak:100,200,300,400,500,600,700');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--------------------------------------------------Main callout--*/
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/misty-forest.jpg') no-repeat bottom right fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
