@@ -16,59 +16,55 @@ body {
     top: 0;
     left: 0;
     z-index: 1;
-    padding: 0;
 }
 
 .navbar  {
-    height: 60px;
-    padding-bottom: 16px;
-    padding-right: 0;
-    padding-left: 0;
+    margin-bottom: 10px;
     border: 0;
-    width: 100%;
-    background-color: #2e557f;
-
+    background-color: #2b2d2f;
+    text-align: center;
+    padding-top: 0;
+    
 }
 .navbar .navbar-toggler {
     border: 0;
 }
 
 .navbar-brand {
-    
+    height: 75px;
+    margin-bottom: 10px;
 }
 
-.navbar-logo {
-    height: 120px;
+.navbar-brand img{
     width: 150px;
-    background: url('../images/odealist-logo.png');    
-    margin-top: 5px;
-    margin-left: 5px;
-    z-index: 2;
+    height: 100px;
+    padding-bottom: 10px;
 }
 
-.navbar-nav {
-    color: #ffffff;
-
-}
-
-.navbar-collapse {
-    width: 100%;
-    text-align: center;
-}
 
 .navbar ul {
-    padding-top: 10px;
     background: transparent;
-
 }
-
 
 .navbar .navbarnav a {
     font-weight: bold;
 }
 
-.navdroptest {
-    background:transparent;
+.nav-item {
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.active a {
+    color: #2aba42 !important; 
+}
+
+.dropdown-menu {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    background-color: #2b2d2f;
+    text-align: center;
 }
 
 
@@ -76,7 +72,7 @@ body {
 
  .navbar ul {
     padding-top: 10px;
-    background: #000000;
+    background: #2b2d2f;
     }
 }
 
@@ -88,23 +84,10 @@ body {
 
 }
 
-/*--------------------------------------------------logo--*/
 
-/*.logo {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    width: 150px;
-    height: 230px;
-    border-radius: 125px;
-    overflow: hidden;
-    background: transparent;
-    box-sizing: border-box;
-    z-index: 1;
-}
-*/
-
-/*--------------------------------------------------Main callout--*/
+/*--------------------------------------------------Main callout--
+                                                    HOME
+------------------------------------------------------------------*/
 
 .callout-container {
     height: 100vh;
@@ -125,4 +108,12 @@ body {
 
 .jumbotron {
     background-color: transparent;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.jumbotron h1 {
+    font-family: "Exo", sans-serif;
+    color: #2aba42;
+    font-weight: 700;
 }

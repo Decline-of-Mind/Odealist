@@ -17,36 +17,44 @@
 </head>
 
 <body>
-	<div class="container-fluid navbar-container">
-		<nav class="navbar navbar-dark navbar-expand-sm">
-			<a href="/" class="navbar-brand"><div class="navbar-logo"></div></a>
+	<header>
 
+	<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+		<a href="/" class="navbar-brand">
+        <img src="assets/images/odealist-logo.png" alt="odealist logo" title="odealist logo">
+			</a>
 			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
+		
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav ml-auto uppercase">
+				<li class="nav-item mr-2 active"><a class="nav-link" href="/">Home</a></li>
+				<li class="nav-item mr-2"><a class="nav-link" href="/About">Featured</a></li>
+				<li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Frontline Stories
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#">Climate Front</a>
+						<a class="dropdown-item" href="#">Polution Front</a>
+				</li>
+                <li class="nav-item mr-2"><a class="nav-link" href="/About">Contact</a></li>
+			</ul>
+            </div>
+	</nav>
 
-			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-				<ul class="navbar-nav ml-auto uppercase navdroptest">
-					<li class="nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-					<li class="nav-item mr-2"><a class="nav-link" href="/About">Featured</a></li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Frontline Stories
-						</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="#">Climate Front</a>
-							<a class="dropdown-item" href="#">Polution Front</a>
-					</li>
-				</ul>
-		</nav>
-	</div>
+	</header>
 	<!---------------First Container------------------------->
 	<div class="container-fluid callout-container">
 		<div class="row">
 			<section class="callout jumbotron text-center">
-            <h1>Odealist</h1>
-            <h2>Objective, Optimistic, Idealistic</h2>
-            <h3>Too often, the news about the state of our world makes it seem as if the situation is hopeless. But every day there are people fighting and solving problems. Our mission is to provide objective and inspiring news about the world, and the people fighting for it. Will you be part of the solution?</h3>
+				<h1>Odealist</h1>
+				<h2>Objective, Optimistic, Idealistic</h2>
+				<h3>Too often, the news about the state of our world makes it seem as if the situation is hopeless. But
+					every day there are people fighting and solving problems. Our mission is to provide objective and
+					inspiring news about the world, and the people fighting for it. Will you be part of the solution?
+				</h3>
 			</section>
 		</div>
 
