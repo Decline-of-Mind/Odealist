@@ -34,12 +34,16 @@ body {
 }
 
 .navbar-brand {
-    font-family: "Exo", sans-serif;
-    font-weight: bold;
-    padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 2px;
+    
+}
+
+.navbar-logo {
+    height: 120px;
+    width: 150px;
+    background: url('../images/odealist-logo.png');    
+    margin-top: 5px;
+    margin-left: 5px;
+    z-index: 2;
 }
 
 .navbar-nav {
