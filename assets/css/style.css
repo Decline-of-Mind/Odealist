@@ -2,7 +2,103 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
+
+
+/*--------------------------------------------------Navigation bar--*/
+
+
+
+.navbar-container {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 0;
+}
+
+.navbar  {
+    height: 60px;
+    padding-bottom: 16px;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    width: 100%;
+    background-color: #2e557f;
+
+}
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-family: "Exo", sans-serif;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 2px;
+}
+
+.navbar-nav {
+    color: #ffffff;
+
+}
+
+.navbar-collapse {
+    width: 100%;
+    text-align: center;
+}
+
+.navbar ul {
+    padding-top: 10px;
+    background: transparent;
+
+}
+
+
+.navbar .navbarnav a {
+    font-weight: bold;
+}
+
+.navdroptest {
+    background:transparent;
+}
+
+
+@media only screen and (min-width: 320px) {
+
+ .navbar ul {
+    padding-top: 10px;
+    background: #000000;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+
+ .navbar-expand-sm .navbar-nav {
+    background-color:transparent;
+     }
+
+}
+
+/*--------------------------------------------------logo--*/
+
+/*.logo {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 150px;
+    height: 230px;
+    border-radius: 125px;
+    overflow: hidden;
+    background: transparent;
+    box-sizing: border-box;
+    z-index: 1;
+}
+*/
 
 /*--------------------------------------------------Main callout--*/
 
@@ -19,7 +115,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-color: transparent;
     position: relative;
 }
 
