@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Modak:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Wallpoet:100,200,300,400,500,600,700');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -33,11 +33,12 @@ body {
 .navbar-brand {
     height: 75px;
     margin-bottom: 10px;
+    padding-top: 0;
 }
 
 .navbar-brand img{
     width: 150px;
-    height: 100px;
+    height: 140px;
     padding-bottom: 10px;
 }
 
@@ -92,7 +93,7 @@ body {
 .callout-container {
     height: 100vh;
 
-    background: url('../images/misty-forest.jpg') no-repeat bottom right fixed;
+    background: url('../images/mountain-range.jpg') no-repeat bottom right fixed;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -116,4 +117,37 @@ body {
     font-family: "Exo", sans-serif;
     color: #2aba42;
     font-weight: 700;
+    letter-spacing: 10px;
+    font-size: 70px;
+    text-decoration: underline overline;
+}
+
+.jumbotron span {
+    font-family: "Wallpoet", sans-serif;
+    font-weight: 600;
+    padding: 40px;
+}
+
+.objec {
+    color: #32b9e2;
+}
+
+.optim {
+    color: #d23c3c;
+}
+
+.ideal {
+    color: #8ae699;
+}
+
+.slogan {
+    height: 50px;
+    margin-top: 30px;
+    width: 100%
+}
+
+.mission {
+    height: 20%;
+    margin-top: 40px;
+    color: #95959a;
 }
