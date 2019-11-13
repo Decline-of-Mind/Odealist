@@ -18,61 +18,48 @@
 
 <body>
 	<header>
-
-		<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-			<a href="/" class="navbar-brand">
-				<img src="assets/images/odealist-logo3.png" alt="odealist logo" title="odealist logo">
-			</a>
-				<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span></button>
-
-				<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<ul class="navbar-nav ml-auto uppercase">
-						<li class="nav-item mr-2 active"><a class="nav-link" href="/About">Featured</a></li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Frontline Stories
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="#">Climate Front</a>
-								<a class="dropdown-item" href="#">Polution Front</a>
-						</li>
-						<li class="nav-item mr-2 active"><a class="nav-link" href="/About">Contact</a></li>
-					</ul>
-				</div>
-		</nav>
-
+		<div class="container nav-container">
+			<div class="row">
+				<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+					<a href="/" class="navbar-brand">
+						<img src="assets/images/odealist-logo3.png" alt="odealist logo" title="odealist logo"></a>
+						<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+						<div class="collapse navbar-collapse" id="navbarNavDropdown">
+							<ul class="navbar-nav ml-auto uppercase">
+								<li class="nav-item mr-2 active"><a class="nav-link" href="/About">Featured</a></li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+										role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Frontline Stories
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+										<a class="dropdown-item" href="#">Climate Front</a>
+										<a class="dropdown-item" href="#">Polution Front</a>
+								</li>
+								<li class="nav-item mr-2 active"><a class="nav-link" href="/About">Contact</a></li>
+							</ul>
+						</div>
+				</nav>
+			</div>
+		</div>
 	</header>
 	<!---------------First Container------------------------->
-	<div class="container-fluid callout-container">
-		<section class="callout jumbotron text-center">
-			<div class="row title-row">
-				<div class="col-12 main-title">
-					<h1>Odealist</h1>
-				</div>
+	<div class="container-fluid callout-container no-gutters">
+		<div class="row">
+			<div class="col-12 main-title">
+				<h1>Odealist</h1>
 			</div>
-			<div class="container-fluid slogan-container">
-				<div class="row slogan no-gutters">
-					<div class="col-12 col-md-4">
-						<h2><span class="optim">Optimistic</span></h2>
-					</div>
-					<div class="col-12 col-md-4">
-						<h2><span class="objec">Objective</span></h2>
-					</div>
-					<div class="col-12 col-md-4">
-						<h2><span class="ideal">Idealistic</span></h2>
-					</div>
-				</div>
-				<div class="row mission">
-					<div class="col-12">
-						<h3>
-							find our what extraordinary battles are fought for our planet by ordinary people
-						</h3>
-					</div>
-				</div>
+			<div class="col-12 col-md-4 callout slogan"><h2 class="optim">Optimistic</h2></div>
+			<div class="col-12 col-md-4 callout slogan"><h2 class="objec">Objective</h2></div>
+            <div class="col-12 col-md-4 callout slogan"><h2 class="ideal">Idealistic</h2></div>	
+			<div class="col-12 d-none d-md-block mission uppercase">
+				<h3>
+					find out what extraordinary battles are fought for our planet by ordinary people
+				</h3>
 			</div>
-		</section>
+		</div>
 	</div>
 	<!--------------------------------------------------------------footer--->
 	<footer>
@@ -87,7 +74,7 @@
 			</div>
 		</div>
 	</footer>
-
+	<section class="callout jumbotron center"></section>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
