@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
 
 /*--------------------------------------------------Navigation bar--*/
 
@@ -129,6 +133,7 @@ body {
 }
 
 .main-title {
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -150,15 +155,16 @@ body {
 }
 
 .slogan {
+    margin-top: 20px;
     text-align: center;
+}
+
+.optim {
+    color: #cfd13a;
 }
 
 .objec {
     color: #32b9e2;
-}
-
-.optim {
-    color: #d23c3c;
 }
 
 .ideal {
@@ -178,6 +184,88 @@ body {
                                                                                                 Footer
 ----------------------------------------------------------------------------------------------------*/
 
+
 .footer-container {
-    padding: 0;
+    background-color: #2b2d2f;
 }
+
+.footer-content {
+    margin-top: 15px;
+    text-align: center;
+    color: #32b9e2;
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+}
+
+.login {
+    position: center;
+}
+
+.login a {
+    color: #cfd13a;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+}
+
+.login .signup {
+    margin: 5px;
+    padding: 1px;
+}
+
+.social {
+    padding: 5px;
+    font-family: "Exo", sans-serif;
+    color: #2aba2a;
+    text-align: center;
+}
+
+/*--------------------------------------------------------------------------------------------------
+                                                                                                Socials
+----------------------------------------------------------------------------------------------------*/
+
+ .social-links li a i {
+     width: 32px;
+     height: 32px;
+     padding: 12px 0;
+     border-radius: 50%;
+     font-size: 12px;
+     line-height: 7px;
+     text-align: center;
+     color: #fafafa;
+     background: #8f8f8f;
+     transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+ }
+
+ .social-links li a i:hover {
+     background-color: #e84610;
+ }
+
+
+/*--------------------------------------------------------------------------------------------------
+                                                                                                Buttons
+----------------------------------------------------------------------------------------------------*/
+
+
+.login .btn-login {
+    height: 30px;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 1px;
+    color: #000000;
+    background-color: #2aba42;
+}
+
+
+.btn-login:hover,
+.btn-login:active,
+.btn-login:focus,
+.btn-login:active:focus {
+    background-color: #32b9e2;
+    border-color: #df4929;
+}
+
