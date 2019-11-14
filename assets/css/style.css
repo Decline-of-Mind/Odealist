@@ -28,7 +28,6 @@ body {
 .navbar-brand {
     height: 75px;
     
-    padding-top: 0;
     display: inline-block;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
@@ -227,6 +226,54 @@ body {
 .carousel-caption a {
     margin: 5px;
 }
+
+/*--------------------------------------------------------------------------------------------------
+                                                                                    Climate front
+----------------------------------------------------------------------------------------------------*/
+
+.climate-container {
+    height: 2200px;
+    width: 100%;
+    background: url('../images/peaceful-water.jpg') no-repeat bottom right fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+}
+
+.climate-row {
+    width: 100%;
+    position: absolute;
+    top: 95px;
+    text-align: center;
+    background: rgba(0,0,0,0.5)
+}
+
+.climate-title {
+    font-family: "Wallpoet", sans-serif;
+    color:#32b9e2;
+}
+
+.card {
+    object-fit: contain;
+    height: 500px;
+    min-width: 100%;
+    max-width: none;
+    margin-top: 10px;
+}
+
+
+
+
 
 
 /*--------------------------------------------------------------------------------------------------
