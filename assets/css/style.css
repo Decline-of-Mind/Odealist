@@ -118,7 +118,7 @@ body {
 ------------------------------------------------------------------------*/
 
 .callout-container {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background: url('../images/mountain-range.jpg') no-repeat bottom right fixed;
 
@@ -228,7 +228,7 @@ body {
 }
 
 /*--------------------------------------------------------------------------------------------------
-                                                                                    Climate front
+                                                                                    Climate/pollution front
 ----------------------------------------------------------------------------------------------------*/
 
 .climate-container {
@@ -247,15 +247,35 @@ body {
     background-color: transparent;
     position: relative;
     font-family: "Roboto", sans-serif;
-    padding: 0;
+    padding-top: 130px;
 }
 
-.climate-row {
+.pollution-container {
+    height: 2200px;
+    width: 100%;
+    background: url('../images/pol-bg.jpg') no-repeat bottom right fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    padding-top: 130px;
+}
+
+.front-row {
     width: 100%;
     position: absolute;
     top: 95px;
     text-align: center;
-    background: rgba(0,0,0,0.5)
+    background: rgba(0,0,0,0.5);
+    margin-bottom: 20px;
 }
 
 .climate-title {
@@ -263,15 +283,39 @@ body {
     color:#32b9e2;
 }
 
+.pollution-title {
+    font-family: "Wallpoet", sans-serif;
+     color:#8ae699;
+}
+
 .card {
-    object-fit: contain;
     height: 500px;
+    object-fit: contain;
     min-width: 100%;
     max-width: none;
     margin-top: 10px;
 }
 
 
+.card-img-top {
+    max-height: 200px;
+}
+
+@media only screen and (min-width: 767px) {
+.climate-container,
+.pollution-container {
+    height: 1300px;
+     }
+
+}
+
+@media only screen and (min-width: 1200px) {
+.climate-container,
+.pollution-container {
+    height: 90vh;
+     }
+
+}
 
 
 
@@ -283,6 +327,7 @@ body {
 
 .footer-container {
     background-color: #2b2d2f;
+    padding-bottom: 10px;
 }
 
 .footer-content {
@@ -364,6 +409,13 @@ body {
     background-color: #2aba42;
 }
 
+.card-body .btn-front {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+
 .btn-login:hover,
 .btn-login:active,
 .btn-login:focus,
@@ -376,5 +428,13 @@ body {
 .btn-feat:active,
 .btn-feat:focus,
 .btn-feat:active:focus {
+    background-color: #32b9e2;
+    border-color: #df4929;
+}
+
+.btn-front:hover,
+.btn-front:active,
+.btn-front:focus,
+.btn-front:active:focus {
     background-color: #32b9e2;
     border-color: #df4929;
