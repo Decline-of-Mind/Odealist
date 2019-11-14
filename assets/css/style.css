@@ -77,15 +77,16 @@ body {
     font-size: 24px;
 }
 
-.active a {
-    color: #2aba42 !important; 
-}
 
 .dropdown-menu {
     font-family: "Roboto", sans-serif;
     font-style: italic;
     background-color: #2b2d2f;
     text-align: center;
+}
+
+.navbar-collapse .active a {
+    color: #2aba42 !important; 
 }
 
 .dropdown-item {
@@ -188,31 +189,44 @@ body {
                                                                   Featured
 ------------------------------------------------------------------------*/
 
-.featured-container {
-    height: 100vh;
+.feature-row {
     width: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    position: relative;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
+    position: absolute;
+    top: 95px;
+    z-index: 1;
+    text-align: center;
+    background: rgba(0,0,0,0.5)
 }
 
+.feature-title {
+    font-family: "Wallpoet", sans-serif;
+    color: #cfd13a;
+}
+
+.feature-title h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
 
 .carousel-inner {
     min-height: 100vh;
 }
 
+.carousel-item img{
+    width: 100vw;
+    height: 100vh;
+}
+
+.carousel-caption {
+    bottom: 90px;
+    font-weight: 600;
+    background-color: rgba(0,0,0,0.5);
+}
 
 
+.carousel-caption a {
+    margin: 5px;
+}
 
 
 /*--------------------------------------------------------------------------------------------------
@@ -295,6 +309,13 @@ body {
     background-color: #2aba42;
 }
 
+.carousel-caption .btn-feat {
+    height: 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #2aba42;
+}
 
 .btn-login:hover,
 .btn-login:active,
@@ -304,3 +325,9 @@ body {
     border-color: #df4929;
 }
 
+.btn-feat:hover,
+.btn-feat:active,
+.btn-feat:focus,
+.btn-feat:active:focus {
+    background-color: #32b9e2;
+    border-color: #df4929;
