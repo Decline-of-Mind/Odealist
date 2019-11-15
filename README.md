@@ -166,5 +166,4 @@ The HTML structure had too many border issues (White space on the sides) to be c
 
 
 
-Photo by Rolands Varsbergs on Unsplash
-Photo by Wesley Tingey on Unsplash
+
