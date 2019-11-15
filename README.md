@@ -12,7 +12,7 @@
 </ul>
 </p>
 <h3>Welcoming the User</h3>
-<p>When the user enters the site the intention is to greet him/her by a main page that doesn't overwhelm with buttons and/or information, yet doesn't feel empty. With just a few pieces of information coming at the user, yet having a high definition, peaceful image to still catch a persons attention. </p>
+<p>When the user enters the site the intention is to greet him/her by a main page that doesn't overwhelm with buttons and/or information, yet doesn't feel empty. With just a few pieces of information coming at the user, yet having a high definition, peaceful image to still catch the user's attention. </p>
 
 <h2>User Experience</h2>
 <p>What we mean to provide for the user is a place to easily find the things they're looking for. To find any positive news stories about this subject is quite harsh. Dozens of news sites to search through in order to find what you're looking for. The important news tends not to be sensational. 
@@ -23,6 +23,12 @@ We do this by: <ul>
 <li>Having a dropdown on mobiles devices that takes the space it needs</li>
 </ul> </p>
 
+<h3>Wireframes</h3>
+<p>The sketches were updated halfway through the project. 
+The HTML structure had too many border issues (White space on the sides) to be considered as sufficient. Thus the plans changed to the ones beneath: </p>
+<img src="assets/wireframes/wireframes-mobile/introduction-mobile.png">
+<img src="assets/wireframes/wireframes-ipad/introduction-ipad.png">
+<img src="assets/wireframes/wireframes-desktop/introduction.png">
 
 
 
