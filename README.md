@@ -1,5 +1,5 @@
 <h1>Odealist<h2>
-  <div><img src=""</div>
+  <div><img src="assets/images/new-odealist.png" alt="earlier version of logo" ><p>Earliest version, didn't fit new style of website.</p></div>
 
 
 
