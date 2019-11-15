@@ -1,7 +1,7 @@
 <h1>Odealist<h2>
   <div><img src="assets/images/new-odealist.png" alt="earlier version of logo" ><p>Earliest version, didn't fit new style of website.</p></div>
   
-
+<section>
 <h2>The Site's Mission</h2>
 <p>So often people around me that seem battered down and lethargic when the state of our planet comes up. This is understandable but there is a lot to be optimistic about. Never before have so many people been engaged in the discussion and ideas about creating a better world. And that, to me, is the right way to look at this problem.</p>
 <p>That is how Odealist was conceptualized. A General hub for all positive or inspiring news about individuals, special interest groups or countries that are willing to wage the good fight.</p>
@@ -18,11 +18,11 @@
 <p>What we mean to provide for the user is a place to easily find the things they're looking for. To find any positive news stories about this subject is quite harsh. Dozens of news sites to search through in order to find what you're looking for. The important news tends not to be sensational. 
 This is what we provide. With featured stories being updated every week the user will always have a reaon to come back. It's important to us to make navigation on this website as easy as can be. 
 We do this by: <ul>
-<li>Having our logo as home and always visible and in the same place</li>
-<li>Having a crystal clear navigation bar with a smooth green colour to catch the eye</li>
-<li>Having a dropdown on mobiles devices that takes the space it needs</li>
+<li>Having our logo as home and always visible and in the same place.</li>
+<li>Having a crystal clear navigation bar with a smooth green colour to catch the eye.</li>
+<li>Having a dropdown on mobiles devices that takes the space it needs.</li>
 </ul> </p>
-
+</section>
 <h3>Wireframes</h3>
 <p>The sketches were updated halfway through the project. 
 The HTML structure had too many border issues (White space on the sides) to be considered as sufficient. Thus the plans changed to the ones beneath: </p>
@@ -31,6 +31,7 @@ The HTML structure had too many border issues (White space on the sides) to be c
 <div><img src="wireframes/wireframes-desktop/introduction.png" alt="desktop view"></div>
 <p>A wireframe of every page is to be found in the files enclosed with the code.</p>
 
+<section>
 <h2>Features</h2>
 
 <h3>Home</h3>
@@ -40,14 +41,15 @@ The HTML structure had too many border issues (White space on the sides) to be c
 <p>This is where our weekly updated featuring stories will be. This is to highlight stories we truly find remarkable. The user can click "Next" and "Previous" but the pictures will slide to the next automatically.</p>
 
 <h3>Climate-front</h3>
-<p>This page is for climate-related news showed via cards. Carbon dioxide, tree-planting, rising oceans and new technologies to mitigate our problems</p>
+<p>This page is for climate-related news showed via cards. Carbon dioxide, tree-planting, rising oceans and new technologies to mitigate our problems.</p>
 
 <h3>Pollution-front</h3>
 <p>This page is for pollution-related news showed via cards. Smog, petrol and the people and technologies that clean it up.</p>
 
 <h3>Contact</h3>
 <p>This page is build for someone to contact us with a question or suggestion</p>
-
+</section>
+<section>
 <h2>Plans for the future</h2>
 <ul>
 <li>User registration, including login and news letter by mail</li>
@@ -55,6 +57,32 @@ The HTML structure had too many border issues (White space on the sides) to be c
 <li>Creating a feature which lists job openings in the NGO "industry" </li>
 </ul>
 
+<h2>Technolgies Used</h2>
+<ul>
+<li>HTML5 and CSS3 languages</li>
+<li><strong>Bootstrap</strong> - Responsive structure for the webpages. </li>
+<li><strong>Gitpod</strong> - Web-based IDE (used for writing code) automatically linked with Github.</li>
+<li><strong>Github</strong> - Used to base repositories and to deploy this website.</li>
+<li><strong>Git</strong> - Version control of code.</li>
+<li><strong>JQuery</strong> - Javascript Needed for Navigation bar</li>
+<li><strong>Popper.js</strong> - Javascript Needed for Navigation bar</li>
+<li><strong>Font-Awesome</strong> - For social-media icons</li>
+</ul>
+
+<section>
+<h2>Testing</h2>
+<p>Most of the testing was done when finishing one of the pages. With Chrome's DeveloperTools, WC3 HTML and CSS validator.</p>
+<h2>Issues and Solution</h2>
+<h3>Navbar color-sliding down.</h3>
+<p>Altough the navigation bar was working and going down when clicking the dropdown button, it seemed to take the color down with it. Not only that, it would take White Space with it from the sides of the page. At first i changed the color of the Navigation Bar to the color i wished the dropped down nav-bar would have.
+ Stephen Seagrave, student at CodeInstitute, gave me advice over mediaqueries, which i then used to mitigate from the whitespace.</p>
+
+<h3>Size of Climate/pollution container</h3>
+<p>The height of the container was good in mobile view, but too large for desktop and ipad. So a mediaquery was made to change the height for both ipad, and larger.</p>
+
+ <h2><strong>Known issue</strong></h2>
+ <p>The last two cards on both Climate- and Pollution-front have images that are not contained like the other two are. Their sizes change depending on image. It's fine as it is, but not perfect nor desirable.<p>
+</section>
 
 
 
