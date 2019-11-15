@@ -94,12 +94,13 @@ body {
 
 
 /*--------------------------------------------------------mediaquerries--
-                added to offset white bars next to dropdown
+                added to offset white bars next to dropdown. 
+                figured this out together with fellow codeinstitute student : Stephen Seagrave
 ------------------------------------------------------------------------*/
 
 @media only screen and (min-width: 320px) {
 
- .navbar ul {
+.navbar ul {
     padding-top: 10px;
     background: #2b2d2f;
     }
@@ -107,10 +108,9 @@ body {
 
 @media only screen and (min-width: 576px) {
 
- .navbar-expand-sm .navbar-nav {
+.navbar-expand-sm .navbar-nav {
     background-color:transparent;
      }
-
 }
 
 /*--------------------------------------------------------Main callout--
@@ -226,10 +226,10 @@ body {
     background-color: rgba(0,0,0,0.5);
 }
 
-
 .carousel-caption a {
     margin: 5px;
 }
+
 
 /*--------------------------------------------------------------------------------------------------
                                                                                     Climate/pollution front
