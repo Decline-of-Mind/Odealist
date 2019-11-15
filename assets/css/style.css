@@ -319,6 +319,39 @@ body {
 
 
 
+/*--------------------------------------------------------------------------------------------------
+                                                                                                Contact
+----------------------------------------------------------------------------------------------------*/
+
+
+
+.contact-container {
+    height: 90vh;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8f8f8f;
+}
+
+.contact-title {
+    font-family: "wallpoet", sans-serif;
+    color: #2aba2a;
+    font-weight: 700;
+    letter-spacing: 10px;
+    font-size: 60px;
+    text-decoration: underline overline;
+}
+
+.contact-heading,
+.contact-text {
+    font-family: "Exo", sans-serif;
+    color: #2aba2a;
+}
+
+
+
+
 
 /*--------------------------------------------------------------------------------------------------
                                                                                                 Footer
