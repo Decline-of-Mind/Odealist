@@ -1,445 +1,335 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Wallpoet:100,200,300,400,500,600,700');
-
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+ body {
+     font-family: 'Roboto', sans-serif;
+     margin: 0;
 }
-
-.row {
-    margin-right: 0;
-    margin-left: 0;
+ .row {
+     margin-right: 0;
+     margin-left: 0;
 }
-
 /*--------------------------------------------------Navigation bar--*/
-
-.nav-container {
-    padding: 0;
+ .nav-container {
+     padding: 0;
 }
-
-.navbar  {
-    margin-bottom: 0;
-    border: 0;
-    background-color: #2b2d2f;
-    text-align: center;
-    padding-top: 15px;
-    
+ .navbar {
+     margin-bottom: 0;
+     border: 0;
+     background-color: #2b2d2f;
+     text-align: center;
+     padding-top: 15px;
 }
-
-.navbar-brand {
-    height: 75px;
-    
-    display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
+ .navbar-brand {
+     height: 75px;
+     display: inline-block;
+     padding-top: .3125rem;
+     padding-bottom: .3125rem;
+     margin-right: 1rem;
+     font-size: 1.25rem;
+     line-height: inherit;
+     white-space: nowrap;
 }
-
-.navbar .navbar-toggler {
-    border: 0;
+ .navbar .navbar-toggler {
+     border: 0;
 }
-
-.navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    content: "";
-    background: no-repeat center center;
-    background-size: 100% 100%;
+ .navbar-toggler-icon {
+     display: inline-block;
+     width: 1.5em;
+     height: 1.5em;
+     vertical-align: middle;
+     content: "";
+     background: no-repeat center center;
+     background-size: 100% 100%;
 }
-
-.navbar-brand img{
-    width: 150px;
-    height: 140px;
-    padding-bottom: 10px;
+ .navbar-brand img{
+     width: 150px;
+     height: 140px;
+     padding-bottom: 10px;
 }
-
-
-.navbar ul {
-    background: transparent;
+ .navbar ul {
+     background: transparent;
 }
-
-.navbar-nav {
-    padding-right: 20px;
-    font-size: 20px;
+ .navbar-nav {
+     padding-right: 20px;
+     font-size: 20px;
 }
-.navbar .navbarnav a {
-    font-weight: bold;
+ .navbar .navbarnav a {
+     font-weight: bold;
 }
-
-.nav-item {
-    font-family: "Exo", sans-serif;
-    font-weight: 600;
-    font-size: 24px;
+ .nav-item {
+     font-family: "Exo", sans-serif;
+     font-weight: 600;
+     font-size: 24px;
 }
-
-
-.dropdown-menu {
-    font-family: "Roboto", sans-serif;
-    font-style: italic;
-    background-color: #2b2d2f;
-    text-align: center;
+ .dropdown-menu {
+     font-family: "Roboto", sans-serif;
+     font-style: italic;
+     background-color: #2b2d2f;
+     text-align: center;
 }
-
-.navbar-collapse .active a {
-    color: #2aba42 !important; 
+ .navbar-collapse .active a {
+     color: #2aba42 !important;
 }
-
-.dropdown-item {
-    color: #2aba42 !important;
+ .dropdown-item {
+     color: #2aba42 !important;
 }
-
-
-/*--------------------------------------------------------mediaquerries--
-                added to offset white bars next to dropdown. 
-                figured this out together with fellow codeinstitute student : Stephen Seagrave
-------------------------------------------------------------------------*/
-
-@media only screen and (min-width: 320px) {
-
-.navbar ul {
-    padding-top: 10px;
-    background: #2b2d2f;
+/*--------------------------------------------------------mediaquerries-- added to offset white bars next to dropdown. figured this out together with fellow codeinstitute student : Stephen Seagrave ------------------------------------------------------------------------*/
+ @media only screen and (min-width: 320px) {
+     .navbar ul {
+         padding-top: 10px;
+         background: #2b2d2f;
     }
 }
-
-@media only screen and (min-width: 576px) {
-
-.navbar-expand-sm .navbar-nav {
-    background-color:transparent;
-     }
+ @media only screen and (min-width: 576px) {
+     .navbar-expand-sm .navbar-nav {
+         background-color:transparent;
+    }
 }
-
-/*--------------------------------------------------------Main callout--
-                                                                  HOME
-------------------------------------------------------------------------*/
-
-.callout-container {
-    height: 90vh;
-    width: 100%;
-    background: url('../images/mountain-range.jpg') no-repeat bottom right fixed;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    position: relative;
-    font-family: "Roboto", sans-serif;
-    padding: 0;
+/*--------------------------------------------------------Main callout-- HOME ------------------------------------------------------------------------*/
+ .callout-container {
+     height: 90vh;
+     width: 100%;
+     background: url('../images/mountain-range.jpg') no-repeat bottom right fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: transparent;
+     position: relative;
+     font-family: "Roboto", sans-serif;
+     padding: 0;
 }
-
-.main-title {
-    margin-bottom: 20px;
-    text-align: center;
+ .main-title {
+     margin-bottom: 20px;
+     text-align: center;
 }
-
-.callout-container h1 {
-    font-family: "Exo", sans-serif;
-    color: #2aba42;
-    font-weight: 700;
-    letter-spacing: 10px;
-    font-size: 60px;
-    text-decoration: underline overline;
-    background-color: transparent;
+ .callout-container h1 {
+     font-family: "Exo", sans-serif;
+     color: #2aba42;
+     font-weight: 700;
+     letter-spacing: 10px;
+     font-size: 60px;
+     text-decoration: underline overline;
+     background-color: transparent;
 }
-
-.callout h2 {
-    font-family: "Wallpoet", sans-serif;
-    font-weight: 500;
-    font-size: 40px;
-    background-color: transparent;
+ .callout h2 {
+     font-family: "Wallpoet", sans-serif;
+     font-weight: 500;
+     font-size: 40px;
+     background-color: transparent;
 }
-
-.slogan {
-    margin-top: 20px;
-    text-align: center;
+ .slogan {
+     margin-top: 20px;
+     text-align: center;
 }
-
-.optim {
-    color: #cfd13a;
+ .optim {
+     color: #cfd13a;
 }
-
-.objec {
-    color: #32b9e2;
+ .objec {
+     color: #32b9e2;
 }
-
-.ideal {
-    color: #8ae699;
+ .ideal {
+     color: #8ae699;
 }
-
-.mission {
-    margin-top: 60px;
-    font-family: "Wallpoet", sans-serif;
-    color: #adaddb;
-    text-align: center;
-    text-transform: bold;
+ .mission {
+     margin-top: 60px;
+     font-family: "Wallpoet", sans-serif;
+     color: #adaddb;
+     text-align: center;
+     text-transform: bold;
 }
-
-
-/*--------------------------------------------------------Main featured--
-                                                                  Featured
-------------------------------------------------------------------------*/
-
-
-.feature-row {
-    width: 100%;
-    position: absolute;
-    top: 95px;
-    z-index: 1;
-    text-align: center;
-    background: rgba(0,0,0,0.5);
+/*--------------------------------------------------------Main featured-- Featured ------------------------------------------------------------------------*/
+ .feature-row {
+     width: 100%;
+     position: absolute;
+     top: 95px;
+     z-index: 1;
+     text-align: center;
+     background: rgba(0,0,0,0.5);
 }
-
-.feature-title {
-    font-family: "Wallpoet", sans-serif;
-    color: #cfd13a;
-
+ .feature-title {
+     font-family: "Wallpoet", sans-serif;
+     color: #cfd13a;
 }
-
-.feature-title h1 {
-    font-weight: 700;
-    font-size: 50px;
-    text-decoration: underline overline;
-
+ .feature-title h1 {
+     font-weight: 700;
+     font-size: 50px;
+     text-decoration: underline overline;
 }
-
-.carousel-inner {
-    min-height: 100vh;
+ .carousel-inner {
+     min-height: 100vh;
 }
-
-.carousel-item img{
-    width: 100vw;
-    height: 100vh;
+ .carousel-item img{
+     width: 100vw;
+     height: 100vh;
 }
-
-.carousel-caption {
-    bottom: 90px;
-    font-weight: 600;
-    background-color: rgba(0,0,0,0.5);
+ .carousel-caption {
+     bottom: 90px;
+     font-weight: 600;
+     background-color: rgba(0,0,0,0.5);
 }
-
-.carousel-caption a {
-    margin: 5px;
+ .carousel-caption a {
+     margin: 5px;
 }
-
-
-/*--------------------------------------------------------------------------------------------------
-                                                                                    Climate/pollution front
-----------------------------------------------------------------------------------------------------*/
-
-.climate-container {
-    height: 2200px;
-    width: 100%;
-    background: url('../images/peaceful-water.jpg') no-repeat bottom right fixed;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    object-fit: contain;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    position: relative;
-    font-family: "Roboto", sans-serif;
-    padding-top: 130px;
+/*-------------------------------------------------------------------------------------------------- Climate/pollution front ----------------------------------------------------------------------------------------------------*/
+ .climate-container {
+     height: 2200px;
+     width: 100%;
+     background: url('../images/peaceful-water.jpg') no-repeat bottom right fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     object-fit: contain;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: transparent;
+     position: relative;
+     font-family: "Roboto", sans-serif;
+     padding-top: 130px;
 }
-
-.pollution-container {
-    height: 2200px;
-    width: 100%;
-    background: url('../images/pol-bg.jpg') no-repeat bottom right fixed;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    object-fit: contain;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    position: relative;
-    font-family: "Roboto", sans-serif;
-    padding-top: 130px;
+ .pollution-container {
+     height: 2200px;
+     width: 100%;
+     background: url('../images/pol-bg.jpg') no-repeat bottom right fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     object-fit: contain;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: transparent;
+     position: relative;
+     font-family: "Roboto", sans-serif;
+     padding-top: 130px;
 }
-
-.front-row {
-    width: 100%;
-    position: absolute;
-    top: 95px;
-    text-align: center;
-    background: rgba(0,0,0,0.5);
-    margin-bottom: 20px;
+ .front-row {
+     width: 100%;
+     position: absolute;
+     top: 95px;
+     text-align: center;
+     background: rgba(0,0,0,0.5);
+     margin-bottom: 20px;
 }
-
-.climate-title {
-    font-family: "Wallpoet", sans-serif;
-    color:#32b9e2;
-    font-weight: 700;
-    letter-spacing: 10px;
-    font-size: 60px;
-    text-decoration: underline overline;
-
+ .climate-title {
+     font-family: "Wallpoet", sans-serif;
+     color:#32b9e2;
+     font-weight: 700;
+     letter-spacing: 10px;
+     font-size: 60px;
+     text-decoration: underline overline;
 }
-
-.pollution-title {
-    font-family: "Wallpoet", sans-serif;
-    color:#8ae699;
-    font-weight: 700;
-    letter-spacing: 10px;
-    font-size: 60px;
-    text-decoration: underline overline;
-
+ .pollution-title {
+     font-family: "Wallpoet", sans-serif;
+     color:#8ae699;
+     font-weight: 700;
+     letter-spacing: 10px;
+     font-size: 60px;
+     text-decoration: underline overline;
 }
-
-.card {
-    height: 500px;
-    object-fit: contain;
-    min-width: 100%;
-    max-width: none;
-    margin-top: 10px;
+ .card {
+     height: 500px;
+     object-fit: contain;
+     min-width: 100%;
+     max-width: none;
+     margin-top: 10px;
 }
-
-
-.card-img-top {
-    max-height: 200px;
+ .card-img-top {
+     max-height: 200px;
 }
 /*----------------------------------------------------- So that height doesn't become extreme with ipad and desktop view. ----*/
-@media only screen and (min-width: 767px) {
-.climate-container,
-.pollution-container {
-    height: 1300px;
-     }
-
+ @media only screen and (min-width: 767px) {
+     .climate-container, .pollution-container {
+         height: 1300px;
+    }
 }
-
-@media only screen and (min-width: 1200px) {
-.climate-container,
-.pollution-container {
-    height: 90vh;
-     }
-
+ @media only screen and (min-width: 1200px) {
+     .climate-container, .pollution-container {
+         height: 90vh;
+    }
 }
-
-
-
-/*--------------------------------------------------------------------------------------------------
-                                                                                                Contact
-----------------------------------------------------------------------------------------------------*/
-
-
-
-.contact-container {
-    height: 90vh;
-    width: 100%;
-    background: url('../images/foreignp.jpg') no-repeat bottom right fixed;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    position: relative;
-    padding: 0;
+/*-------------------------------------------------------------------------------------------------- Contact ----------------------------------------------------------------------------------------------------*/
+ .contact-container {
+     height: 90vh;
+     width: 100%;
+     background: url('../images/foreignp.jpg') no-repeat bottom right fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: transparent;
+     position: relative;
+     padding: 0;
 }
-
-.contact-row {
-    width: 100%;
-    position: absolute;
-    top: 95px;
-    z-index: 1;
-    text-align: center;
-    background: rgba(0,0,0,0.5)
+ .contact-row {
+     width: 100%;
+     position: absolute;
+     top: 95px;
+     z-index: 1;
+     text-align: center;
+     background: rgba(0,0,0,0.5) 
 }
-
-.contact-title {
-    font-family: "wallpoet", sans-serif;
-    color: #2aba2a;
-    font-weight: 700;
-    letter-spacing: 10px;
-    font-size: 60px;
-    text-decoration: underline overline;
+ .contact-title {
+     font-family: "wallpoet", sans-serif;
+     color: #2aba2a;
+     font-weight: 700;
+     letter-spacing: 10px;
+     font-size: 60px;
+     text-decoration: underline overline;
 }
-
-.contact-text-bg {
-    margin-top: 40px;
-    background-color: rgba(0,0,0,0.5);
+ .contact-text-bg {
+     margin-top: 40px;
+     background-color: rgba(0,0,0,0.5);
 }
-
-
-.contact-heading,
-.contact-text {
-    font-family: "Exo", sans-serif;
-    color: #cfd13a;
+ .contact-heading, .contact-text {
+     font-family: "Exo", sans-serif;
+     color: #cfd13a;
 }
-
 /*----------------------------------------------------- So that form doesnt overtake title on Iphone 5 and 6 ----*/
-@media only screen and (max-width: 766px) {
-.contact-text-bg {
-    margin-top: 150px;
-     }
-
+ @media only screen and (max-width: 766px) {
+     .contact-text-bg {
+         margin-top: 150px;
+    }
 }
-
-
-/*--------------------------------------------------------------------------------------------------
-                                                                                                Footer
-----------------------------------------------------------------------------------------------------*/
-
-
-.footer-container {
-    background-color: #2b2d2f;
-    padding-bottom: 10px;
+/*-------------------------------------------------------------------------------------------------- Footer ----------------------------------------------------------------------------------------------------*/
+ .footer-container {
+     background-color: #2b2d2f;
+     padding-bottom: 10px;
 }
-
-.footer-content {
-    margin-top: 15px;
-    text-align: center;
-    color: #32b9e2;
-    font-family: "Exo", sans-serif;
-    font-weight: 700;
+ .footer-content {
+     margin-top: 15px;
+     text-align: center;
+     color: #32b9e2;
+     font-family: "Exo", sans-serif;
+     font-weight: 700;
 }
-
-.login {
-    position: center;
+ .login {
+     position: center;
 }
-
-.login a {
-    color: #cfd13a;
-    font-family: "Exo", sans-serif;
-    text-align: center;
+ .login a {
+     color: #cfd13a;
+     font-family: "Exo", sans-serif;
+     text-align: center;
 }
-
-.login .signup {
-    margin: 5px;
-    padding: 1px;
+ .login .signup {
+     margin: 5px;
+     padding: 1px;
 }
-
-.social {
-    padding: 5px;
-    font-family: "Exo", sans-serif;
-    color: #2aba2a;
-    text-align: center;
+ .social {
+     padding: 5px;
+     font-family: "Exo", sans-serif;
+     color: #2aba2a;
+     text-align: center;
 }
-
-/*--------------------------------------------------------------------------------------------------
-                                                                                                Socials
-----------------------------------------------------------------------------------------------------*/
-
+/*-------------------------------------------------------------------------------------------------- Socials ----------------------------------------------------------------------------------------------------*/
  .social-links li a i {
      width: 32px;
      height: 32px;
@@ -451,82 +341,56 @@ body {
      color: #fafafa;
      background: #8f8f8f;
      transition: all .35s ease-in-out;
-    -moz-transition: all .35s ease-in-out;
-    -webkit-transition: all .35s ease-in-out;
-    -o-transition: all .35s ease-in-out;
- }
-
+     -moz-transition: all .35s ease-in-out;
+     -webkit-transition: all .35s ease-in-out;
+     -o-transition: all .35s ease-in-out;
+}
  .social-links li a i:hover {
      background-color: #e84610;
- }
-
-
-/*--------------------------------------------------------------------------------------------------
-                                                                                                Buttons
-----------------------------------------------------------------------------------------------------*/
-
-
-.login .btn-login {
-    height: 30px;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin: 20px;
-    padding: 1px;
-    color: #000000;
-    background-color: #2aba42;
 }
-
-.carousel-caption .btn-feat {
-    border-radius: 15px;
-    font-weight: bold;
-    color: #000000;
-    background-color: #2aba42;
+/*-------------------------------------------------------------------------------------------------- Buttons ----------------------------------------------------------------------------------------------------*/
+ .login .btn-login {
+     height: 30px;
+     border-radius: 15px;
+     min-width: 100px;
+     font-weight: bold;
+     margin: 20px;
+     padding: 1px;
+     color: #000000;
+     background-color: #2aba42;
 }
-
-.card-body .btn-front {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
+ .carousel-caption .btn-feat {
+     border-radius: 15px;
+     font-weight: bold;
+     color: #000000;
+     background-color: #2aba42;
 }
-
-.center-form .btn-contact {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 15px;
-    font-weight: bold;
-    color: #000000;
-    background-color: #2aba42;
-}    
-
-.btn-login:hover,
-.btn-login:active,
-.btn-login:focus,
-.btn-login:active:focus {
-    background-color: #32b9e2;
-    border-color: #df4929;
+ .card-body .btn-front {
+     position: absolute;
+     bottom: 10px;
+     left: 10px;
 }
-
-.btn-feat:hover,
-.btn-feat:active,
-.btn-feat:focus,
-.btn-feat:active:focus {
-    background-color: #32b9e2;
-    border-color: #df4929;
+ .center-form .btn-contact {
+     margin-top: 5px;
+     margin-bottom: 5px;
+     border-radius: 15px;
+     font-weight: bold;
+     color: #000000;
+     background-color: #2aba42;
 }
-
-.btn-front:hover,
-.btn-front:active,
-.btn-front:focus,
-.btn-front:active:focus {
-    background-color: #32b9e2;
-    border-color: #df4929;
+ .btn-login:hover, .btn-login:active, .btn-login:focus, .btn-login:active:focus {
+     background-color: #32b9e2;
+     border-color: #df4929;
 }
-
-.btn-contact:hover,
-.btn-contact:active,
-.btn-contact:focus,
-.btn-contact:active:focus {
-    background-color: #32b9e2;
-    border-color: #df4929;
-    }
+ .btn-feat:hover, .btn-feat:active, .btn-feat:focus, .btn-feat:active:focus {
+     background-color: #32b9e2;
+     border-color: #df4929;
+}
+ .btn-front:hover, .btn-front:active, .btn-front:focus, .btn-front:active:focus {
+     background-color: #32b9e2;
+     border-color: #df4929;
+}
+ .btn-contact:hover, .btn-contact:active, .btn-contact:focus, .btn-contact:active:focus {
+     background-color: #32b9e2;
+     border-color: #df4929;
+}
