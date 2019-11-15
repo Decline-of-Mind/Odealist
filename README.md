@@ -26,9 +26,9 @@ We do this by: <ul>
 <h3>Wireframes</h3>
 <p>The sketches were updated halfway through the project. 
 The HTML structure had too many border issues (White space on the sides) to be considered as sufficient. Thus the plans changed to the ones beneath: </p>
-<img src="assets/wireframes/wireframes-mobile/introduction-mobile.png">
-<img src="assets/wireframes/wireframes-ipad/introduction-ipad.png">
-<img src="assets/wireframes/wireframes-desktop/introduction.png">
+<div><img src="assets/wireframes/wireframes-mobile/introduction-mobile.png" alt="mobile view"></div>
+<div><img src="assets/wireframes/wireframes-ipad/introduction-ipad.png"alt="ipad view"></div>
+<div><img src="assets/wireframes/wireframes-desktop/introduction.png"alt="desktop view"></div>
 
 
 
