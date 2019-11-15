@@ -11,6 +11,7 @@
 <li>Interested in politics/industry/philosophy</li>
 </ul>
 </p>
+<p>When the user enters the site the intention is to greet him/her by a main page that doesn't overwhelm with buttons and/or information, yet doesn't feel empty. With few things coming at the user, yet having a good, peaceful image to not bore the user. </p>
 
 
 
