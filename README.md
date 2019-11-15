@@ -84,33 +84,55 @@ The HTML structure had too many border issues (White space on the sides) to be c
  <p>The last two cards on both Climate- and Pollution-front have images that are not contained like the other two are. Their sizes change depending on image. It's fine as it is, but not perfect nor desirable.<p>
 </section>
 
+<section>
+<h2>Deployment</h2>
+<p>To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:</p>
+<ol>
+<li>From the menu items near the top of the page, select Settings.</li>
+<li>Scroll down to the GitHub Pages section.</li>
+<li>Under Source click the drop-down menu labelled None and select Master Branch</li>
+<li>On selecting Master Branch the page is automatically refreshed, the website is now deployed.</li>
+<li>Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.</li>
+</ol>
+<h3>How to run this project locally</h3>
+<p>To clone this project from GitHub:</p>
+<ol>
+<li>Under the repository name, click "Clone or download".</li>
+<li>In the Clone with HTTPs section, copy the clone URL for the repository.</li>
+<li>In your local IDE open Git Bash.</li>
+<li>Change the current working directory to the location where you want the cloned directory to be made.</li>
+<li>Type git clone, and then paste the URL you copied in Step 3.</li>
+<li>Press Enter. Your local clone will be created.</li>
+</ol>
+</section>
+<section>
+<h2>Credits</h2>
+<h4>Images from <a href="https//.https://unsplash.com/">Unsplash</a></h4>
+<h5><strong>Jeff Ackley</strong></h5>
+<h5><strong>Patrick Hendry</strong></h5>
+<h5><strong>Alexander Popov</strong></h5>
+<h5><strong>Ryan Searle </strong></h5>
+<h5><strong>Javardh</strong></h5>
+<h5><strong>Wesley-Tingey</strong></h5>
+<h5><strong>Nik Shuliahin</strong></h5>
+<h5><strong>NASA</strong></h5>
+<h5><strong>Augustin lautaro</strong></h5>
+<h5><strong>Israel  Palacio </strong></h5>
+<h5><strong>Asia-Chang </strong></h5>
+<h5><strong>Anushree Fadnavis/Reuters  </strong></h5>
+<h5><strong>David Švihovec </strong></h5>
+<h5><strong>Avel Chuklanov </strong></h5>
 
 
+<h2><strong>Acknowledgements</strong></h2>
 
+<h3><strong>Aaron Sinnot</strong> - Mentoring <h3>
+<h3><strong>Stephen Seagrave</strong> - Student at CodeInstitute, helping me on slack.<h3>
+<h3><strong>Richard Wells</strong> - Student at CodeInstitute, helping and advising on slack.<h3>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<h2>DISCLAIMER</h2>
+<p>Please note the content and images on this website are for educational purposes only.</p>
+</section>
 
 
 
