@@ -188,23 +188,27 @@ body {
                                                                   Featured
 ------------------------------------------------------------------------*/
 
+
 .feature-row {
     width: 100%;
     position: absolute;
     top: 95px;
     z-index: 1;
     text-align: center;
-    background: rgba(0,0,0,0.5)
+    background: rgba(0,0,0,0.5);
 }
 
 .feature-title {
     font-family: "Wallpoet", sans-serif;
     color: #cfd13a;
+
 }
 
 .feature-title h1 {
     font-weight: 700;
     font-size: 50px;
+    text-decoration: underline overline;
+
 }
 
 .carousel-inner {
@@ -281,11 +285,21 @@ body {
 .climate-title {
     font-family: "Wallpoet", sans-serif;
     color:#32b9e2;
+    font-weight: 700;
+    letter-spacing: 10px;
+    font-size: 60px;
+    text-decoration: underline overline;
+
 }
 
 .pollution-title {
     font-family: "Wallpoet", sans-serif;
-     color:#8ae699;
+    color:#8ae699;
+    font-weight: 700;
+    letter-spacing: 10px;
+    font-size: 60px;
+    text-decoration: underline overline;
+
 }
 
 .card {
@@ -300,7 +314,7 @@ body {
 .card-img-top {
     max-height: 200px;
 }
-
+/*----------------------------------------------------- So that height doesn't become extreme with ipad and desktop view. ----*/
 @media only screen and (min-width: 767px) {
 .climate-container,
 .pollution-container {
@@ -327,11 +341,29 @@ body {
 
 .contact-container {
     height: 90vh;
-    object-fit: contain;
+    width: 100%;
+    background: url('../images/foreignp.jpg') no-repeat bottom right fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #8f8f8f;
+    background-color: transparent;
+    position: relative;
+    padding: 0;
+}
+
+.contact-row {
+    width: 100%;
+    position: absolute;
+    top: 95px;
+    z-index: 1;
+    text-align: center;
+    background: rgba(0,0,0,0.5)
 }
 
 .contact-title {
@@ -343,14 +375,25 @@ body {
     text-decoration: underline overline;
 }
 
-.contact-heading,
-.contact-text {
-    font-family: "Exo", sans-serif;
-    color: #2aba2a;
+.contact-text-bg {
+    margin-top: 40px;
+    background-color: rgba(0,0,0,0.5);
 }
 
 
+.contact-heading,
+.contact-text {
+    font-family: "Exo", sans-serif;
+    color: #cfd13a;
+}
 
+/*----------------------------------------------------- So that form doesnt overtake title on Iphone 5 and 6 ----*/
+@media only screen and (max-width: 766px) {
+.contact-text-bg {
+    margin-top: 150px;
+     }
+
+}
 
 
 /*--------------------------------------------------------------------------------------------------
@@ -435,7 +478,6 @@ body {
 }
 
 .carousel-caption .btn-feat {
-    height: 30px;
     border-radius: 15px;
     font-weight: bold;
     color: #000000;
@@ -448,6 +490,14 @@ body {
     left: 10px;
 }
 
+.center-form .btn-contact {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #2aba42;
+}    
 
 .btn-login:hover,
 .btn-login:active,
@@ -471,3 +521,12 @@ body {
 .btn-front:active:focus {
     background-color: #32b9e2;
     border-color: #df4929;
+}
+
+.btn-contact:hover,
+.btn-contact:active,
+.btn-contact:focus,
+.btn-contact:active:focus {
+    background-color: #32b9e2;
+    border-color: #df4929;
+    }

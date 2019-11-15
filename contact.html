@@ -18,14 +18,15 @@
 		<div class="container nav-container">
 			<div class="row">
 				<nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+                <!---------------------------------------------------------------------------------------Home button----------->
 					<a href="/" class="navbar-brand">
-						<img src="assets/images/odealist-logo3.png" alt="odealist logo" title="Click me go to the main page"></a>
+						<img src="assets/images/odealist-logo3.png" alt="odealist logo" title="Click me to go to the main page"></a>
 						<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
 						<div class="collapse navbar-collapse" id="navbarNavDropdown">
 							<ul class="navbar-nav ml-auto uppercase">
-								<li class="nav-item mr-2 active"><a class="nav-link" href="/About">Featured</a></li>
+								<li class="nav-item mr-2 active"><a class="nav-link" href="featured.html">Featured</a></li>
 								<li class="nav-item dropdown">
 									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
 										role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -35,7 +36,7 @@
 										<a class="dropdown-item" href="climate-front.html">Climate Front</a>
 										<a class="dropdown-item" href="pollution-front.html">Pollution Front</a>
 								</li>
-								<li class="nav-item mr-2 active"><a class="nav-link" href="/About">Contact</a></li>
+								<li class="nav-item mr-2 active"><a class="nav-link" href="contact.html">Contact</a></li>
 							</ul>
 						</div>
 				</nav>
@@ -44,9 +45,13 @@
 	</header>
 	<!---------------First Container------------------------->
 	<section class="container-fluid contact-container">
+    <div class="row feature-row">
+        <div class="col-12 contact-title">
+            <h1>Contact</h1>
+        </div>
+        </div>
 		<div class="row">
-			<div class="col">
-                <h1 class="contact-title"></h1>
+			<div class="col contact-text-bg">
 				<h3 class="contact-heading uppercase text-center">Did we Miss a Good Story?</h3>
 				<h5 class="contact-text uppercase text-center">Let us know!</h5>
 
@@ -54,10 +59,10 @@
 					<form>
 						<input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
 						<input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-						<textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Give us your Suggestions or Questions" required></textarea>
+						<textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Give us your Suggestions or Questions!" required></textarea>
 						<div class="form-row text-center">
 							<div class="col">
-								<button type="submit" class="btn btn-secondary">Submit your Involvement! </button>
+								<button type="submit" class="btn btn-secondary btn-contact">Submit your Involvement! </button>
 							</div>
 						</div>
 					</form>
@@ -72,6 +77,7 @@
 				<div class="col-sm-4 footer-content">
 					<p class="navbar-text my-auto mr-2">Get involved!</p>
 				</div>
+                <!---------------------------------------------------------------------------------------No actual login page, made for cosmetic purposes.----------->
 				<div class="col-sm-4 login">
 					<a href="/Login" class="btn btn-primary btn-login d-block">
 						<p>Sign In / Sign Up</p>
@@ -110,7 +116,7 @@
 		</div>
 	</footer>
 </body>
-
+<!---------------------------------------------------------------------------------------needed for dropdown animation.----------->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
 </script>
