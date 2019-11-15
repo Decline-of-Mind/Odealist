@@ -32,14 +32,19 @@ The HTML structure had too many border issues (White space on the sides) to be c
 <p>A wireframe of every page is to be found in the files enclosed with the code.</p>
 
 <h2>Features</h2>
+
 <h3>Home</h3>
 <p>First page the User sees. Good looking styles and a short description of our mission lure the user in clicking onwards, towards the other features.</p>
+
 <h3>Featured</h3>
 <p>This is where our weekly updated featuring stories will be. This is to highlight stories we truly find remarkable. The user can click "Next" and "Previous" but the pictures will slide to the next automatically.</p>
+
 <h3>Climate-front</h3>
 <p>This page is for climate-related news showed via cards. Carbon dioxide, tree-planting, rising oceans and new technologies to mitigate our problems</p>
+
 <h3>Pollution-front</h3>
 <p>This page is for pollution-related news showed via cards. Smog, petrol and the people and technologies that clean it up.</p>
+
 <h3>Contact</h3>
 <p>This page is build for someone to contact us with a question or suggestion</p>
 
