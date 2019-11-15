@@ -5,12 +5,16 @@
 }
  .row {
      margin-right: 0;
-     margin-left: 0;
 }
 /*--------------------------------------------------Navigation bar--*/
  .nav-container {
      padding: 0;
 }
+
+ .nav-row {
+     width: 100vw;
+}
+
  .navbar {
      margin-bottom: 0;
      border: 0;
